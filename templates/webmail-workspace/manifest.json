@@ -1,0 +1,28 @@
+{
+  "schema": "solovey-ui/fallback-decoy-template/v1",
+  "id": "webmail-workspace",
+  "name": "Webmail Workspace",
+  "license": "MIT-adapted",
+  "source": {
+    "repository": "upstreams/FallbackHTML/tabler",
+    "license": "MIT",
+    "referenceFiles": [
+      "preview/pages/email-inbox.html",
+      "preview/pages/sign-in.html",
+      "preview/pages/error-404.html"
+    ]
+  },
+  "contentTypeProfile": "webmail",
+  "pages": [
+    "pages/index.html",
+    "pages/login.html",
+    "pages/404.html"
+  ],
+  "assets": [
+    "assets/site.css"
+  ],
+  "notes": [
+    "Static HTML/CSS adaptation only; no upstream Vue/Blade/runtime code is bundled.",
+    "No JavaScript is included by default."
+  ]
+}

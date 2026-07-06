@@ -1,0 +1,17 @@
+{
+  "schema": "solovey-ui/fallback-decoy-catalog/v1",
+  "templates": [
+    {
+      "id": "webmail-workspace",
+      "manifest": "webmail-workspace/manifest.json"
+    },
+    {
+      "id": "file-vault",
+      "manifest": "file-vault/manifest.json"
+    },
+    {
+      "id": "status-dashboard",
+      "manifest": "status-dashboard/manifest.json"
+    }
+  ]
+}

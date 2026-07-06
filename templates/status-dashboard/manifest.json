@@ -1,0 +1,28 @@
+{
+  "schema": "solovey-ui/fallback-decoy-template/v1",
+  "id": "status-dashboard",
+  "name": "Status Dashboard",
+  "license": "MIT-adapted",
+  "source": {
+    "repository": "upstreams/FallbackHTML/coreui-free",
+    "license": "MIT",
+    "referenceFiles": [
+      "src/views/index.html",
+      "src/views/authentication/login.html",
+      "src/views/error-pages/404.html"
+    ]
+  },
+  "contentTypeProfile": "dashboard",
+  "pages": [
+    "pages/index.html",
+    "pages/login.html",
+    "pages/404.html"
+  ],
+  "assets": [
+    "assets/site.css"
+  ],
+  "notes": [
+    "Static HTML/CSS adaptation only.",
+    "Boring status surface with no active probing tricks."
+  ]
+}

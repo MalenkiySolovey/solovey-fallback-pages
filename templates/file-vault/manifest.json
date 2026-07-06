@@ -1,0 +1,28 @@
+{
+  "schema": "solovey-ui/fallback-decoy-template/v1",
+  "id": "file-vault",
+  "name": "File Vault",
+  "license": "MIT-adapted",
+  "source": {
+    "repository": "upstreams/FallbackHTML/adminlte",
+    "license": "MIT",
+    "referenceFiles": [
+      "dist/pages/file-manager.html",
+      "dist/pages/projects.html",
+      "dist/pages/500.html"
+    ]
+  },
+  "contentTypeProfile": "file-cloud",
+  "pages": [
+    "pages/index.html",
+    "pages/projects.html",
+    "pages/500.html"
+  ],
+  "assets": [
+    "assets/site.css"
+  ],
+  "notes": [
+    "Static HTML/CSS adaptation only; no AdminLTE distribution assets are copied.",
+    "Designed as a plausible high-volume file workspace surface."
+  ]
+}
