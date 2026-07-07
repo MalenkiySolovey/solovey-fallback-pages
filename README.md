@@ -43,3 +43,5 @@ The current templates are hand-adapted static pages inspired by MIT-licensed das
 - `webmail-workspace`: mailbox-like workspace surface.
 - `file-vault`: file workspace surface.
 - `status-dashboard`: status dashboard surface.
+- `adminlte-console`: broad AdminLTE-derived console pack with many dashboard, layout, mailbox, table, widget, and error pages adapted into safe static HTML/CSS.
+- `coreui-admin-kit`: CoreUI-derived dashboard pack with authentication, forms, components, charts, icons, and error pages adapted into safe static HTML/CSS.

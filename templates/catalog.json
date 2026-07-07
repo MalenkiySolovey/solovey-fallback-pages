@@ -12,6 +12,14 @@
     {
       "id": "status-dashboard",
       "manifest": "status-dashboard/manifest.json"
+    },
+    {
+      "id": "adminlte-console",
+      "manifest": "adminlte-console/manifest.json"
+    },
+    {
+      "id": "coreui-admin-kit",
+      "manifest": "coreui-admin-kit/manifest.json"
     }
   ]
 }
